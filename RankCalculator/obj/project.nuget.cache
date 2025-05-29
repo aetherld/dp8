@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "s339ZGoGpQ0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Пользователь\\source\\repos\\ds-2025\\RankCalculator\\RankCalculator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Пользователь\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Пользователь\\.nuget\\packages\\nats.client\\1.1.7\\nats.client.1.1.7.nupkg.sha512",
+    "C:\\Users\\Пользователь\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\Пользователь\\.nuget\\packages\\stackexchange.redis\\2.8.31\\stackexchange.redis.2.8.31.nupkg.sha512",
+    "C:\\Users\\Пользователь\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

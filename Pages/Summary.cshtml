@@ -1,0 +1,40 @@
+﻿@page
+@model Valuator.Pages.SummaryModel
+
+@if (!User.Identity.IsAuthenticated)
+
+{
+    <p>Пожалуйста, войдите в систему</p>
+}
+
+else if (Model.Evaluations.Count == 0)
+
+{
+    <p>У вас нет сохраненных оценок</p>
+}
+
+else
+
+{
+    <h3>Мои оценки</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Оценка</th>
+                <th>Плагиат</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var eval in Model.Evaluations)
+
+            {
+                <tr>
+                    <td><a asp-page="/Summary" asp-route-id="@eval.Id">@eval.Id</a></td>
+                    <td>@eval.Rank?.ToString("0.00")</td>
+                    <td>@eval.Similarity.ToString("0.00")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
